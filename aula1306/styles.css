@@ -1,0 +1,19 @@
+body {
+    background-color: papayawhip;
+    font-family: "Lato", sans-serif;
+    color: midnightblue;
+}
+
+h1, h2, h3 {
+    color: green;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+img {
+    width: 240px;
+    border-radius: 16px;
+}
