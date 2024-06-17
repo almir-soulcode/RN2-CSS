@@ -1,0 +1,37 @@
+/* Aula CSS - 17.06 */
+
+/* !important => ignora a prioridade padrão */
+
+/* Seletor de elemento = todos os elementos da página recebem o estilo */
+p {
+    color: blue;
+}
+
+/* Seletor de classe = elementos com atributo class recebem o estilo */
+.destaque {
+    background-color: yellow;
+    color: red;
+}
+
+.texto-centro {
+    text-align: center;
+    color: black;
+}
+
+/* Seletor de ID  = aplicado a um unico elemento na página */
+#paragrafo {
+    background-color: crimson;
+    color: white;
+    text-align: right;
+}
+
+/* Especifidade => Elemento, Classe, ID */
+
+body {
+    /* Propriedade herdada = passada a diante */
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-family: monospace;
+}
