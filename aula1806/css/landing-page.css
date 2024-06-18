@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Reset = diminuir as interferências dos navegadores */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    /* Estas propriedades são herdadas pelos elementos da página */
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+body {
+    background-color: #121212;
+}
+
+.cabecalho {
+    height: 320px;
+    padding: 56px 24px;
+    background: linear-gradient(0deg, #121212, transparent), url(https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo {
+    font-size: 3.5rem;
+}
+
+.descricao {
+    font-style: italic;
+    font-size: 1.4rem;
+}
+
+.btn {
+    background-color: transparent;
+    border: 4px solid white;
+    color: white;
+    border-radius: 8px;
+    padding: 16px 32px;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    margin: 6px 0;
+    cursor: pointer;
+    /* Pequenas animações ao mudar o valor de uma propriedade */
+    transition: background-color 0.9s;
+}
+
+/* :hover aplica um estilo quando o mouse passa sobre o botão*/
+.btn:hover {
+    background-color: white;
+    color: #121212;
+}
+
+.newsletter {
+    width: 300px;
+    margin: auto;
+    padding: 16px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    font-family: "Inter", sans-serif;
+}
+
+.btn-w100 {
+    width: 100%;
+}
+
+.cronograma {
+    width: 800px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    text-align: left;
+    background-color: #ccc;
+    color: #121212;
+    border-color: #121212;
+}
