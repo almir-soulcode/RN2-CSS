@@ -1,0 +1,31 @@
+/* Media Query = regra especial */
+/* 
+    @media condicao {
+        // estilos a serem aplicados quando a condição for verdadeira
+    }
+*/
+
+/* Se a largura estiver no máximo 599px aplica-se o estilo
+max-width = até 480px
+*/
+@media (max-width: 480px) {
+    body {
+        background-color: red;
+    }
+}
+
+/*
+min-width = a partir de 481px
+max-width = até 768px
+*/
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        background-color: orange;
+    }
+}
+/* a partir de 769px*/
+@media (min-width: 769px) {
+    body {
+        background-color: pink;
+    }
+}
